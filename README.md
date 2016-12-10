@@ -4,7 +4,7 @@ Your last assignment is different from your previous assignments. This time you 
 
 You can use any tool/library as long as you properly reference it. There are no instructions or rules on what you have to implement. That said, try to categorize your project in one of the three below categories and do something that at least loosely relates to some of the ideas provided. These are just ideas, not rules or requirements!
 
- #### :one:Backend Focused
+#### :one:Backend Focused
 
 ##### Some ideas
 
