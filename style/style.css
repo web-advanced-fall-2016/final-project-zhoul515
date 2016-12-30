@@ -1,0 +1,118 @@
+body {
+	margin:10px;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-style: normal;
+	font-weight: 100;
+}
+
+
+header {
+	position: relative;
+	top: 0;
+	width: 100vw;
+	height: 100px;
+	background-color: rgba(0,0,0,0);
+	z-index: 1;
+
+}
+
+h1 {
+	float: left;
+	margin-left: 20px;
+}
+
+header nav {
+	float: right;
+	line-height: 30px;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+
+
+header nav a {
+	position: relative;
+	margin-left: 20px;
+	color: 0;
+	text-decoration: none;
+}
+
+header nav a img {
+	display: inline-block;
+	width: 50px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+#carousel {
+	width:900px;
+	height:700px;	
+	margin:0 auto;
+	overflow:show;
+}
+
+#Images {
+	overflow:hidden;
+	position:relative;
+	width:874px;
+	height:620px;
+}
+
+
+#Images ul {
+	position:center;
+	left:0;
+	top:0;
+	list-style:none;
+	margin:0;
+	padding:0;	
+	width:620px;			
+}
+
+
+#Images li {
+	width:874px;
+	height:620px;	
+	float:left;
+}
+
+#Images li img {
+	padding:4px;
+}
+
+
+#buttons #prev{
+	display:left;
+	width:80px; 
+	height:100px;
+	text-indent:-999em;
+	float:left;
+	outline:0;
+}
+
+#buttons #next{
+	display:right;
+	width:80px; 
+	height:100px;
+	text-indent:-999em;
+	float:right;
+	outline:0;
+}
+
+
+a#prev {
+	background:url("Left.png") no-repeat
+}
+
+a#prev:hover {
+	background:url("Left_Hover.png") no-repeat;
+}
+
+a#next {
+	background:url("Right.png") no-repeat; 
+}
+
+a#next:hover {
+	background:url("Right_Hover.png") no-repeat;
+
+
+.clear {clear:both}
